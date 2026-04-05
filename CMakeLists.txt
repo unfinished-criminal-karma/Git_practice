@@ -4,4 +4,5 @@ project(github)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(github main.cpp
-        practice.cpp)
+        practice.cpp
+        Luogu/P1163.cpp)
