@@ -3,18 +3,18 @@
 //
 #include <bits/stdc++.h>
 using namespace std;
-int dp(int n) {
-    if (n == 1) {
+int dfs(int k) {
+    if (k == 1) {
         return 1;
     }
     else {
-        return dp(n - 1)*n;
+        return dfs(k - 1)*k;
     }
 }
 int main() {
     int n;
     cin>>n;
-    int res = dp(n);
+    int res = dfs(n);
     cout<<res<<endl;
     return 0;
 }
