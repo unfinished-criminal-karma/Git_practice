@@ -3,18 +3,9 @@
 //
 #include <bits/stdc++.h>
 using namespace std;
-int dfs(int k) {
-    if (k == 1) {
-        return 1;
-    }
-    else {
-        return dfs(k - 1)*k;
-    }
-}
 int main() {
-    int n;
-    cin>>n;
-    int res = dfs(n);
-    cout<<res<<endl;
+    int a,b;
+    scanf("%d%d",&a,&b);
+    cout<<a/b;
     return 0;
 }
