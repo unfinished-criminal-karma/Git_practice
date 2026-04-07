@@ -10,6 +10,4 @@ add_executable(github main.cpp
         Luogu/P1157.cpp
         Luogu/P1036.cpp
         Luogu/P2089.cpp
-        Luogu/P1088.cpp
-        Luogu/P1149.cpp
-        Luogu/P2036.cpp)
+        Luogu/P1135.cpp)
